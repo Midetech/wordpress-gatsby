@@ -4,7 +4,7 @@ import React from "react"
 
 const Header = () => {
   return(
-    <div style={{backgroundColor: "darkblue", display: "flex", flexDirection: "row",}}>
+    <div style={{backgroundColor: "#1b2a49", display: "flex", flexDirection: "row",}}>
      <Link style={{color:"white", textDecoration: "none"}} to="/"><h1 style={{paddding: "2rem", marginLeft:"2rem", marginRight: "10rem"}}>Gidara</h1></Link> 
 <Link style={{margin: "1rem", color:"white", textDecoration: "none",}} to ='/companies'>Companies</Link>
 <Link style={{margin: "1rem", color:"white", textDecoration: "none",}} to ="team">Team</Link>

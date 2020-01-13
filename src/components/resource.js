@@ -6,9 +6,14 @@ import "bootstrap/dist/css/bootstrap.css";
 
 const Resource = () =>{
   return(
-    <div class="card-deck">
-    <div class="card">
-      <img src="https://res.cloudinary.com/mideveloper/image/upload/v1578900773/Mentors_section_image_1_-_Killer_Mike_xee2kc.png" class="card-img-top" alt="..."/>
+    <div>
+      <h1 >Resources</h1>
+      <p style={{marginTop: "2rem", marginLeft: "6rem"}}>Resources for student artists</p>
+    <div class="card-deck bg-light" style={{margin: " 0 5rem"}}>
+   
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+      
+      <img src="https://res.cloudinary.com/mideveloper/image/upload/v1578904558/What_we_do_section_image_1_d1tdyu.png" class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">One</h5>
         <p class="card-text">Place any text you want here etc.
@@ -17,8 +22,8 @@ marketing, production and
 promotional fees.</p>
         </div>
     </div>
-    <div class="card">
-      <img src="https://res.cloudinary.com/mideveloper/image/upload/v1578901330/Mentors_section_image_2_-_Timbaland_pteqoh.png" class="card-img-top" alt="..."/>
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+      <img src="https://res.cloudinary.com/mideveloper/image/upload/v1578904558/What_we_do_section_image_1_d1tdyu.png" class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title bold">Two</h5>
         <p class="card-text">Place any text you want here etc.
@@ -27,8 +32,8 @@ marketing, production and
 promotional fees.</p>
         </div>
     </div>
-    <div class="card">
-      <img src="https://res.cloudinary.com/mideveloper/image/upload/v1578873407/Mentors_section_image_3_-_Chance_the_rapper_gdo6yr.png" class="card-img-top" alt="..."/>
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+      <img src="https://res.cloudinary.com/mideveloper/image/upload/v1578904381/What_we_do_section_image_3_ty0fpk.png" class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Three</h5>
         <p class="card-text">Place any text you want here etc.
@@ -38,6 +43,8 @@ promotional fees.</p>
         </div>
     </div>
   </div>
+    </div>
+    
   )
 }
 
