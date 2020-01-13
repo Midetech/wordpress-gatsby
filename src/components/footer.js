@@ -1,0 +1,86 @@
+import React from "react"
+import "bootstrap/dist/css/bootstrap.css"
+import "./footer.css"
+
+const Footer = () => {
+  return (
+         <div class="container-fluid">
+  <div class="row">
+    <div class="col-sm">
+    <nav className="nav-one col-md">
+          <ul>
+            <li>
+              <a href="/">Store</a>
+            </li>
+            <li>
+              <a href="/">Catalog</a>
+            </li>
+            <li>
+              <a href="/">Popular</a>
+            </li>
+            <li>
+              <a href="/">Features</a>
+            </li>
+          </ul>
+        </nav>
+    </div>
+    <div class="col-sm">
+    <nav className="nav-two col-md">
+          <ul>
+            <li>
+              <a href="/about">About</a>
+            </li>
+            <li>
+              <a href="/">Catalog</a>
+            </li>
+            <li>
+              <a href="/">Popular</a>
+            </li>
+            <li>
+              <a href="/">Features</a>
+            </li>
+          </ul>
+        </nav>
+    </div>
+    <div class="col-sm">
+    <nav className="nav-three col-md">
+          <ul>
+            <li>
+              <a href="/">Catalog</a>
+            </li>
+            <li>
+              <a href="/">Catalog</a>
+            </li>
+            <li>
+              <a href="/">Popular</a>
+            </li>
+            <li>
+              <a href="/">Features</a>
+            </li>
+          </ul>
+        </nav>
+    </div>
+    </div>
+    <div
+        style={{
+          margin: `0 auto`,
+          maxWidth: 960,
+          padding: `0px 1.0875rem 1.45rem`,
+          paddingTop: 0,
+        }}
+      >
+      
+   
+          © {new Date().getFullYear()}, Built with
+          {` `}
+        
+          <a href="https://www.gatsbyjs.org">Gatsby</a>
+      
+      </div>
+  </div>
+
+    
+  )
+}
+
+export default Footer
