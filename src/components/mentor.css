@@ -1,0 +1,20 @@
+.mentor-section{
+    background: #1b2a49;
+    margin-top: 2em;
+    padding-top: 3rem;
+}
+
+.mentor-title{
+    color: #fff;
+    text-align: center;
+}
+.mentor-name{
+    text-align: left;
+    color: greenyellow;
+}
+
+.mentor-info{
+
+    color: #fff;
+    font-size: .6em;
+}

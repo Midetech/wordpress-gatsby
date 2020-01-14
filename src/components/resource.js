@@ -1,15 +1,16 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
+import "./resource.css"
 
 
 
-
-const Resource = () =>{
+const Resource = (props) =>{
   return(
-    <div>
-      <h1 >Resources</h1>
-      <p style={{marginTop: "2rem", marginLeft: "6rem"}}>Resources for student artists</p>
-    <div class="card-deck bg-light" style={{margin: " 0 5rem"}}>
+    <div style={{marginTop:"2em"}}>
+      <hr style={{ margin: "0 auto", width: "55em", backgroundColor: "black"}}/>
+      <h1 class="resource-title">{props.title}</h1>
+  <p style={{marginTop: ".5rem", marginLeft: "6rem"}}>{props.name}</p>
+    <div class="card-deck t" style={{margin: " 0 5rem"}}>
    
     <div class="card shadow p-3 mb-5 bg-white rounded">
       
@@ -42,7 +43,9 @@ marketing, production and
 promotional fees.</p>
         </div>
     </div>
+    
   </div>
+  <button>VIEW ALL RESOURCES &rarr;</button>
     </div>
     
   )

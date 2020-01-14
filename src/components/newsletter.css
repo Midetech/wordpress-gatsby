@@ -1,0 +1,30 @@
+.newsletter-section{
+    background: rgba(205, 245, 146, 0.664);
+    margin-top: 2em;
+    padding: 5rem;
+}
+
+
+.mini-title{
+    text-align: center;
+}
+
+.subscribe{
+    text-align: center;
+}
+
+.input{
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: .5em;
+    margin-left: 15rem;
+}
+
+.submit{
+    border: none;
+    padding: .5em;
+    margin-left: 1rem;
+    border-radius: 5px;
+    background-color: #1b2a49;
+    color: #fff;
+}

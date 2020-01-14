@@ -7,16 +7,21 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Resource from "../components/resource"
 import Hero from "../components/hero"
+import Mentor from "../components/mentor"
+import Newsletter from "../components/newsletter"
 
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-     <Hero/>
-    <div class="bg-light">
+     <Hero />
+     <Resource name="You’re in great company" title="What we do"/>
+   <Mentor/>
       
-<Resource />
-    </div>
+<Resource name="Resources for student artists" title="Resources"/>
+      
+<Resource name="Resources for graduate artists"/>
+  <Newsletter/>
   
   </Layout>
 )

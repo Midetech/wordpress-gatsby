@@ -1,3 +1,22 @@
+.footer{
+    padding-top: 5rem;
+    background: #1b2a49;
+    
+}
+li:first-child{
+    font-weight: bold;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    
+    text-decoration: none;
+}
 ul{
     list-style: none;
+}
+.main-footer{
+    display: flex;
 }

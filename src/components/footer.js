@@ -4,9 +4,9 @@ import "./footer.css"
 
 const Footer = () => {
   return (
-         <div class="container-fluid">
-  <div class="row">
-    <div class="col-sm">
+         <div class="container-fluid footer">
+  <div class="main-footer">
+    <div class="sub-footer">
     <nav className="nav-one col-md">
           <ul>
             <li>
@@ -24,7 +24,7 @@ const Footer = () => {
           </ul>
         </nav>
     </div>
-    <div class="col-sm">
+   <div class="sub-footer">
     <nav className="nav-two col-md">
           <ul>
             <li>
@@ -41,8 +41,8 @@ const Footer = () => {
             </li>
           </ul>
         </nav>
-    </div>
-    <div class="col-sm">
+        </div>
+   <div class="sub-footer">
     <nav className="nav-three col-md">
           <ul>
             <li>
@@ -59,13 +59,16 @@ const Footer = () => {
             </li>
           </ul>
         </nav>
-    </div>
-    </div>
+        </div>
+        <h3>Gidara</h3>
+        <p>Your music career success partner</p>
+   </div>
     <div
         style={{
-          margin: `0 auto`,
+          marginLeft: `1rem`,
+          color: `#fff`,
           maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
+          padding: `2rem 1.0875rem 1.45rem`,
           paddingTop: 0,
         }}
       >
