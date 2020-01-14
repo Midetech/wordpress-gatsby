@@ -3,6 +3,7 @@ module.exports = {
     title: `Gidara Frontend Task`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
+    siteUrl: `https://wordpressandgatsby.000webhostapp.com`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
