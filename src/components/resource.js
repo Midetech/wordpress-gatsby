@@ -23,7 +23,7 @@ promotional fees.</p>
         </div>
     </div>
     <div class="card shadow p-3 mb-5 bg-white rounded">
-      <img src="https://res.cloudinary.com/mideveloper/image/upload/v1578904558/What_we_do_section_image_1_d1tdyu.png" class="card-img-top" alt="..."/>
+      <img src="https://res.cloudinary.com/mideveloper/image/upload/v1578989404/What_we_do_section_image_2_yajv3z.png" class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title bold">Two</h5>
         <p class="card-text">Place any text you want here etc.

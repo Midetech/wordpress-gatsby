@@ -12,11 +12,12 @@ import Hero from "../components/hero"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+     <Hero/>
     <div class="bg-light">
       
 <Resource />
     </div>
-   <Hero/>
+  
   </Layout>
 )
 

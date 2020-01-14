@@ -1,0 +1,23 @@
+.hero-container{
+    background-color: #1b2a49;
+    color: #fff;
+}
+
+.hero-title{
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+.hero-content{
+    font-weight: 400;
+    letter-spacing: .05em;
+}
+.hero-content-two{
+    text-align: justify;
+    line-height:2em;
+    letter-spacing: .05em;
+}
+
+.hero-image{
+    margin: auto 0;
+}
