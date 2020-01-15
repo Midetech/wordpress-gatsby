@@ -5,10 +5,10 @@ import "./header.css";
 
 const Header = () => {
   return(
-    <div class="container-fluid" style={{backgroundColor: "#1b2a49"}}>
+    <div class="container-fluid" style={{backgroundColor: "#1b2a49", paddingTop: "1.5em"}}>
      <nav class="navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand" id="title" href="/">Gidara</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" id="nav-toggle" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">

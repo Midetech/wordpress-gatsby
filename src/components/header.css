@@ -4,3 +4,16 @@
     font-weight: 800;
     margin-right: 25%;
 }
+
+@media screen and (min-width: 320px) and (max-width: 414px){
+    #nav-toggle{
+        background-color: #fff;
+       bottom: .5rem;
+        position: absolute;
+        left: 9em;
+    }
+
+    #title{
+       
+    }
+}
