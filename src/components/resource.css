@@ -10,9 +10,10 @@ button{
 .resource-title{
     transform: rotate(90deg);
     position: relative;
-    top: 35rem;
+    top: 40rem;
     bottom: 0;
-    right: 31rem;
+    right: 36rem;
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 320px) and (max-width: 414px){
