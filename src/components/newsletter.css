@@ -17,7 +17,7 @@
     color: rgb(0, 0, 0);
     border: none;
     padding: .5em;
-    margin-left: 15rem;
+    margin-left: 26rem;
 }
 
 .submit{
@@ -30,9 +30,9 @@
 }
 
 
-@media screen and (min-width: 360px){
+@media screen and (min-width: 320px) and (max-width: 414px){
     .mini-title{
-        font-size: 2em;
+        font-size: 1em;
         text-transform: uppercase;
     }
 

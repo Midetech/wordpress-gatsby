@@ -60,16 +60,17 @@ const Footer = () => {
           </ul>
         </nav>
         </div>
-        {/* <h3>Gidara</h3>
-        <p>Your music career success partner</p> */}
+        <h3 class="logo">Gidara</h3>
+        <p class="slogan">Your music career success partner</p>
    </div>
     <div
         style={{
-          marginLeft: `1rem`,
+          margin: `0 auto`,
           color: `#fff`,
           maxWidth: 960,
           padding: `2rem 1.0875rem 1.45rem`,
           paddingTop: 0,
+          textAlign: `center`,
         }}
       >
       
