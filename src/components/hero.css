@@ -11,13 +11,45 @@
 .hero-content{
     font-weight: 400;
     letter-spacing: .05em;
+    font-size: 2rem;
 }
 .hero-content-two{
     text-align: justify;
-    line-height:2em;
+    /* line-height:2em; */
     letter-spacing: .05em;
 }
 
 .hero-image{
     margin: auto 0;
+}
+
+
+@media screen and (min-width: 360px){
+    .hero-title{
+        font-size: 1em;
+        font-weight: bold;
+        padding: 0 1em;
+    }
+    .hero-content{
+        font-size: 1.5em;
+        text-align: justify;
+        letter-spacing: normal;
+        background: #fff;
+        color: #d3d3d3;
+        padding: 2rem;
+    }
+    .hero-content-two{
+        letter-spacing: normal;
+        text-align: justify;
+        padding: 1em 3em;
+        
+        border: 2px solid #fff;
+       
+    }
+    br{
+        display: none;
+    }
+    .hero-image{
+        margin-bottom: 1em;
+    }
 }

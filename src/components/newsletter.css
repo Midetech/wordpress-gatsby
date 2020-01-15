@@ -28,3 +28,28 @@
     background-color: #1b2a49;
     color: #fff;
 }
+
+
+@media screen and (min-width: 360px){
+    .mini-title{
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+
+    .subscribe{
+        font-size: 1em;
+    }
+
+    .sub-form{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .input{
+        margin: 0 auto;
+    }
+
+    .submit{
+        margin: 1em auto 0;
+    }
+}

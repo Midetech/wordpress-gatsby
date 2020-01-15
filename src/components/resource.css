@@ -3,8 +3,8 @@ button{
     background: #1b2a49;
     border-radius: 5px;
     color: #fff;
-    padding: 1em;
-    margin-left: 48rem;
+    padding: .5em;
+    margin-left: 44em;
 }
 
 .resource-title{
@@ -13,4 +13,23 @@ button{
     top: 35rem;
     bottom: 0;
     right: 31rem;
+}
+
+@media screen and (min-width: 360px){
+    hr{
+        display: none;
+    }
+
+    .resource-title{
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        transform: rotate(0deg);
+        text-align: center;
+    }
+
+    button{
+        margin: auto 5.5em;
+    }
 }

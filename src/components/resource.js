@@ -7,10 +7,10 @@ import "./resource.css"
 const Resource = (props) =>{
   return(
     <div style={{marginTop:"2em"}}>
-      <hr style={{ margin: "0 auto", width: "55em", backgroundColor: "black"}}/>
+      <hr style={{ margin: "0 auto", width: "40em", backgroundColor: "black"}}/>
       <h1 class="resource-title">{props.title}</h1>
   <p style={{marginTop: ".5rem", marginLeft: "6rem"}}>{props.name}</p>
-    <div class="card-deck t" style={{margin: " 0 5rem"}}>
+    <div class="card-deck t" style={{margin: " 0 1rem"}}>
    
     <div class="card shadow p-3 mb-5 bg-white rounded">
       

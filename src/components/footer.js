@@ -60,8 +60,8 @@ const Footer = () => {
           </ul>
         </nav>
         </div>
-        <h3>Gidara</h3>
-        <p>Your music career success partner</p>
+        {/* <h3>Gidara</h3>
+        <p>Your music career success partner</p> */}
    </div>
     <div
         style={{
